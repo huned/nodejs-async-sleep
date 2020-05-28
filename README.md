@@ -1,5 +1,7 @@
 # Async Sleep for Node.js
 
+Main repo: [https://github.com/huned/nodejs-async-sleep](https://github.com/huned)
+
 An uncomplicated async sleep function for node.js.
 
 ## Overview
