@@ -1,0 +1,24 @@
+{
+  "name": "async-sleep",
+  "version": "1.0.0",
+  "description": "An uncomplicated async sleep function for node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huned/nodejs-async-sleep.git"
+  },
+  "keywords": [
+    "sleep",
+    "async",
+    "wait"
+  ],
+  "author": "Huned Botee <huned@hunedbotee.com> (https://hunedbotee.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huned/nodejs-async-sleep/issues"
+  },
+  "homepage": "https://github.com/huned/nodejs-async-sleep#readme"
+}
