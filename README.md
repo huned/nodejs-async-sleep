@@ -9,16 +9,16 @@ An uncomplicated async sleep function for node.js.
 Features:
 
 * uncomplicated
-* no dependencies or bloat
+* no dependencies or bloat - it's literally one line of code
 * familiar interface
 
 ## Install
 
-    npm install async-sleep
+    npm install simple-async-sleep
 
 ## Usage
 
-    asyncSleep = require('async-sleep')
+    asyncSleep = require('simple-async-sleep')
     await asyncSleep(1000) // sleep for 1s
 
 ## Author
@@ -28,3 +28,8 @@ Features:
 ## License
 
 MIT
+
+## TODOs
+
+[ ] Add a test
+[ ] Publish to npm
