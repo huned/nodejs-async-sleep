@@ -4,6 +4,10 @@ Main repo: [https://github.com/huned/nodejs-async-sleep](https://github.com/hune
 
 An uncomplicated async sleep function for node.js.
 
+**BREAKING CHANGE for v1.0.3+** v1.0.3+ is an es6 module. You must use it
+with `import` syntax. If your project uses the CommonJS `require` syntax, you
+should use v1.0.2.
+
 ## Overview
 
 Features:
@@ -11,14 +15,19 @@ Features:
 * uncomplicated
 * no dependencies or bloat - it's literally one line of code
 * familiar interface
+* ESM
 
 ## Install
 
-    npm install simple-async-sleep
+    # For ESM, use v1.0.3 or later
+    npm install simple-async-sleep --save
+
+    # For CommonJS, use v1.0.2
+    npm install simple-async-sleep@1.0.2 --save
 
 ## Usage
 
-    asyncSleep = require('simple-async-sleep')
+    import asyncSleep from 'simple-async-sleep'
     await asyncSleep(1000) // sleep for 1s
 
 ## Author

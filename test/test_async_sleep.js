@@ -1,7 +1,7 @@
 'use strict'
 
-const assert = require('assert')
-const asyncSleep = require('../')
+import assert from 'assert'
+import asyncSleep from '../index.js'
 
 describe('async sleep', function () {
   it('returns a promise', function () {
