@@ -28,8 +28,3 @@ Features:
 ## License
 
 MIT
-
-## TODOs
-
-[ ] Add a test
-[ ] Publish to npm
